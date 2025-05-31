@@ -1,0 +1,240 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Open-Sans', sans-serif;
+}
+body {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 100;
+  padding-top: 70px;
+}
+.main-color {
+  color: rgb(4, 122, 155);
+}
+.white {
+  color: white;
+}
+.second-color {
+  color: rgb(30, 150, 180);
+}
+.third-color {
+  color: rgb(165, 213, 225);
+}
+.w3-padding-16{
+  padding-left:16px!important;
+  padding-right:16px!important;
+}
+h1{font-size:30px} h2{font-size:24px} h3{font-size:22px} h4{font-size:20px} h5{font-size:18px} h6{font-size:16px}
+.w3-wide{letter-spacing:4px}
+.w3-top,.w3-bottom{position:fixed;width:100%;}.w3-top{top:0}.w3-bottom{bottom:0}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+.w3-bar {
+  color: rgb(4, 122, 155);
+  margin: 5 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+.header {
+  background-color: #F1F9FF;
+  height: 600px;
+  text-align: center; 
+}
+.header .container {
+  position: relative;
+  top: 100px;
+}
+.header h1 {
+  color: rgb(4, 122, 155);
+  line-height: 100px; 
+  font-size: 50px;
+  margin-top: 20;
+  margin-bottom: 30px;
+  text-transform: uppercase; 
+}
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 80px;
+  }
+}
+.header p {
+  color: rgb(4, 122, 155);;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+.btn {
+  color: #fff;
+  background: rgb(4, 122, 155);
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition:  .5s; 
+}
+.nav { 
+  background: rgb(4, 122, 155);
+  height: 50px; 
+  width: 100%;
+}
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 10px;
+  line-height: 50px; 
+  list-style: none;
+  padding: 0 10px;
+  transition:  .5s; 
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn:hover, .nav ul li:hover {
+  background: rgb(4, 122, 155);
+  cursor: pointer; 
+  transition: .3s;  
+}
+
+.main .container {
+  margin: 80px auto;
+}
+.main img {
+  float: center;
+  margin: 50px 80px 50px 50;
+}
+.footer { 
+  background: rgb(4, 122, 155);
+  height: 50px; 
+  padding-bottom: 0px;
+}
+.footer p { 
+  color: #fff;
+  font-size: 14px;  
+  height: 50px; 
+  line-height: 50px;
+  margin: 0;  
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(4, 122, 155);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 200px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #F1F9FF;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.jumbotron {
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) center center;
+  background-size: cover;
+  height: 600px; 
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: right; 
+}
+
+.jumbotron p {
+  color: #fff; 
+  text-align: right; 
+}
+
+.jumbotron .btn {
+  margin: 10px 0 0;
+  float: right; 
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 12px;}
+  .sidenav a {font-size: 15px;}
+}
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}

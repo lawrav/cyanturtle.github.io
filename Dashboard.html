@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <title>CYAN TURTLE</title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open-Sans:400,300,500,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="mainstyle.css" type="text/css" rel="stylesheet">
+  </head>
+<body>
+<!-- Top container -->
+  <div class="nav">
+      <span style="font-size:20px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars white"></i></span>
+      <span>Logo Left</span>
+  </div>
+<!-- Sidebar/menu -->
+  </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <p><i class="fas fa-house-user white w3-padding-16"></i>Fulano Perengano</p>
+      <p>Administrdor</p>
+      <a href="#"><i class="fas fa-chalkboard white w3-padding-16"></i>Clases</a>
+      <a href="#"><i class="fas fa-chart-pie white w3-padding-16"></i>Gráficas</a>
+      <a href="#"><i class="fas fa-cog white w3-padding-16"></i>Configuración</a>
+      <a href="#">Cerrar Sesión</a>
+     </div>
+<div id="header">
+    <h2>Perfil Admin</h2>
+    <p>Mostrar mentores, solicitudes</p>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+  document.getElementById("header").style.marginLeft = "200px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("header").style.marginLeft= "0";
+}
+</script>
+</div>
+  <div class="footer">
+      <p>&copy; By Cyan Turtle</p>
+    </div>
+  </div>
+</body>
+</html>
